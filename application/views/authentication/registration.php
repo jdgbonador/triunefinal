@@ -1,13 +1,15 @@
-
-<div class="col-lg-9 col-lg-offset-3">
-    <h3>TRIUNE</h3>
+ 
+<div class="col-lg-9 col-lg-offset-3" style="color: white">
+<img src="assets\images\welcome.png">
+<img src="assets\images\name.png">
     <h6>Please enter the required information below.</h6>     
 
 <!--START ------------------------------ registration FORM  -------------------------------------------START -->
 
-<?php 
+<?php
    $attributes = array('method' => 'POST', 'role' => 'form', 'id' => 'createToken' );
    echo form_open_multipart('home/create', $attributes);
+
 ?>
 
   
@@ -100,8 +102,8 @@
 
 
   <!--START ------------------------------ signUp Button  -------------------------------------------START -->
-  <div class="form-group col-lg-6 input-group-sm">
-    <input type="submit" value='Sign up'  id="formButton" class='btn btn-md btn-primary btn-block' >
+  <div class="form-group col-lg-6 input-group-sm" >
+    <input type="submit"  value='Sign up'  id="formButton" class='btn btn-md btn-primary btn-block' >
   </div>
   <!--END ------------------------------ signUp Button  -------------------------------------------END -->
 

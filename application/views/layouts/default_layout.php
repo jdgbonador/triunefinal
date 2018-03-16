@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<title>Triune - <?php echo $title;?></title>
 
@@ -14,7 +15,7 @@
 	<!-- page specific plugin styles -->
 </head>
  
-<body class="no-skin">
+<body class="no-skin" background="http://borderlesscommunications.com/wp-content/uploads/2016/04/slide3.jpg">
 <div id="navbar" class="navbar navbar-default">
 
 </div>
